@@ -7,7 +7,11 @@
 
    START SERVER
 * Run `python3.9 manage.py server` to start server.
-* Alternatively `chmod a+x start.sh` , `./start.sh`
+* Alternatively `chmod a+x start.sh` , `./start.sh`.
+
+  INSTALL POSTGRESQL BD
+*  sudo apt-get update
+*  sudo apt-get install postgresql postgresql-contrib libpq-dev  
    
    DEPLOYMENT TO HEROKU
 * To deploy on heroku, you will need to install/do the following:
