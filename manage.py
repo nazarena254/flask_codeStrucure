@@ -7,7 +7,8 @@ from flask_script import Manager,Server
 
 
 # Creating app instance
-app = create_app('development')
+app = create_app('development')   # during development
+#app = create_app('production')  # during production/deployment to heroku stage
 # app = create_app('test')
 
 manager = Manager(app)
